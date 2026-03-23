@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform-operations
+  description: Demo team operating internal admin surfaces and runbooks.
+spec:
+  type: team

@@ -1,0 +1,14 @@
+* @colinrisler-cortex/platform-engineering
+
+/apps/catalog-api/ @colinrisler-cortex/platform-engineering
+/apps/catalog-web/ @colinrisler-cortex/platform-experience
+/apps/admin-portal/ @colinrisler-cortex/platform-operations
+/apps/docs-site/ @colinrisler-cortex/platform-experience
+/services/ingestion-worker/ @colinrisler-cortex/developer-platform
+/services/notification-service/ @colinrisler-cortex/developer-platform
+/services/auth-service/ @colinrisler-cortex/identity-platform
+/services/audit-worker/ @colinrisler-cortex/security-platform
+/packages/shared-config/ @colinrisler-cortex/developer-platform
+/packages/ui-kit/ @colinrisler-cortex/design-systems
+/catalog/ @colinrisler-cortex/platform-engineering
+/docs/ @colinrisler-cortex/platform-operations

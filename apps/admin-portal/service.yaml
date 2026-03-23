@@ -1,0 +1,11 @@
+name: admin-portal
+type: website
+owner: platform-operations
+lifecycle: experimental
+dependsOn:
+  - catalog-api
+  - auth-service
+tags:
+  - demo
+  - admin
+  - catalog

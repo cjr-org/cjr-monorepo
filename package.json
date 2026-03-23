@@ -10,6 +10,6 @@
   ],
   "scripts": {
     "catalog:list": "find catalog -maxdepth 1 -name '*.yaml' -print | sort",
-    "check:structure": "test -d apps/catalog-api && test -d apps/catalog-web && test -d services/ingestion-worker && test -d packages/shared-config"
+    "check:structure": "test -d apps/catalog-api && test -d apps/catalog-web && test -d apps/admin-portal && test -d apps/docs-site && test -d services/ingestion-worker && test -d services/auth-service && test -d services/notification-service && test -d services/audit-worker && test -d packages/shared-config && test -d packages/ui-kit"
   }
 }

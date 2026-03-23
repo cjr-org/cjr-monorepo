@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: admin-portal
+  description: Internal admin experience for managing demo catalog operations.
+  tags:
+    - admin
+    - web
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:platform-operations
+  system: developer-catalog
+  dependsOn:
+    - Component:default/catalog-api
+    - Component:default/auth-service

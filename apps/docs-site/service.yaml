@@ -1,0 +1,10 @@
+name: docs-site
+type: website
+owner: platform-experience
+lifecycle: experimental
+dependsOn:
+  - catalog-api
+tags:
+  - demo
+  - docs
+  - onboarding

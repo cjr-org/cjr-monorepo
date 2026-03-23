@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: developer-catalog
+  description: Demo system representing an internal service catalog platform.
+  tags:
+    - demo
+    - platform
+spec:
+  owner: group:platform-engineering

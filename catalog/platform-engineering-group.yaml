@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform-engineering
+  description: Demo owning team for the catalog API.
+spec:
+  type: team
+  children:
+    - developer-platform

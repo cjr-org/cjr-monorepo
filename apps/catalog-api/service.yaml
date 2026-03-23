@@ -1,0 +1,11 @@
+name: catalog-api
+type: service
+owner: platform-engineering
+lifecycle: experimental
+dependsOn:
+  - ingestion-worker
+  - shared-config
+tags:
+  - demo
+  - catalog
+  - api

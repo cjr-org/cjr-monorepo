@@ -1,0 +1,6 @@
+{
+  "name": "@cjr/shared-config",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Shared config package for demo catalog services"
+}

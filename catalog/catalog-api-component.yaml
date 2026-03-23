@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: catalog-api
+  description: API surface for querying catalog entities.
+  tags:
+    - api
+    - catalog
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:platform-engineering
+  system: developer-catalog
+  providesApis:
+    - catalog-rest
+  dependsOn:
+    - Component:default/ingestion-worker

@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: catalog-web
+  description: Demo UI for browsing service ownership and dependencies.
+  tags:
+    - web
+    - catalog
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:platform-experience
+  system: developer-catalog
+  dependsOn:
+    - Component:default/catalog-api

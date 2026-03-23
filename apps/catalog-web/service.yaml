@@ -1,0 +1,9 @@
+name: catalog-web
+type: website
+owner: platform-experience
+lifecycle: experimental
+dependsOn:
+  - catalog-api
+tags:
+  - demo
+  - catalog

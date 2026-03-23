@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: catalog-rest
+  description: Demo REST API exposed by catalog-api.
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: group:platform-engineering
+  system: developer-catalog
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Catalog API
+      version: 0.1.0
+    paths:
+      /entities:
+        get:
+          summary: List catalog entities
+          responses:
+            "200":
+              description: OK

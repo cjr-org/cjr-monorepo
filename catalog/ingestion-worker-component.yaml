@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ingestion-worker
+  description: Sync worker that imports source metadata into the catalog.
+  tags:
+    - worker
+    - sync
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:developer-platform
+  system: developer-catalog

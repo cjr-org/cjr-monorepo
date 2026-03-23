@@ -1,0 +1,15 @@
+{
+  "name": "cjr-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Minimal demo monorepo for service catalog integration",
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "catalog:list": "find catalog -maxdepth 1 -name '*.yaml' -print | sort",
+    "check:structure": "test -d apps/catalog-api && test -d apps/catalog-web && test -d services/ingestion-worker && test -d packages/shared-config"
+  }
+}

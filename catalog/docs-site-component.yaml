@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: docs-site
+  description: Documentation surface for catalog onboarding and conventions.
+  tags:
+    - docs
+    - web
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:platform-experience
+  system: developer-catalog
+  dependsOn:
+    - Component:default/catalog-api

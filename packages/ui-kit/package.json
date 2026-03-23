@@ -1,0 +1,6 @@
+{
+  "name": "@cjr/ui-kit",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Shared UI scaffolding package for demo web apps"
+}

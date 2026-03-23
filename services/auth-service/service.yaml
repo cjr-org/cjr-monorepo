@@ -1,0 +1,10 @@
+name: auth-service
+type: service
+owner: identity-platform
+lifecycle: experimental
+dependsOn:
+  - shared-config
+tags:
+  - demo
+  - auth
+  - identity

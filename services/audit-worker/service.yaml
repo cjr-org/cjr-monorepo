@@ -1,0 +1,11 @@
+name: audit-worker
+type: worker
+owner: security-platform
+lifecycle: experimental
+dependsOn:
+  - auth-service
+  - shared-config
+tags:
+  - demo
+  - audit
+  - security

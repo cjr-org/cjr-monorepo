@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: notification-service
+  description: Outbound notifications and alert fan-out service.
+  tags:
+    - notifications
+    - events
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:developer-platform
+  system: developer-catalog

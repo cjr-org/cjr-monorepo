@@ -1,0 +1,10 @@
+name: notification-service
+type: service
+owner: developer-platform
+lifecycle: experimental
+dependsOn:
+  - shared-config
+tags:
+  - demo
+  - notifications
+  - events

@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: identity-platform
+  description: Demo team owning authentication and access services.
+spec:
+  type: team

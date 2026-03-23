@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: audit-worker
+  description: Background processor for audit events and retention flows.
+  tags:
+    - audit
+    - security
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:security-platform
+  system: developer-catalog

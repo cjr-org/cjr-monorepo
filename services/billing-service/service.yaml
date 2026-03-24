@@ -2,6 +2,7 @@ name: billing-service
 type: service
 owner: platform-engineering
 lifecycle: experimental
+port: 3003
 dependsOn:
   - auth-service
   - schemas

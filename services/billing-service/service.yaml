@@ -1,0 +1,11 @@
+name: billing-service
+type: service
+owner: platform-engineering
+lifecycle: experimental
+dependsOn:
+  - auth-service
+  - schemas
+tags:
+  - demo
+  - billing
+  - usage

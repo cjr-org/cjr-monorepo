@@ -1,0 +1,6 @@
+{
+  "name": "@cjr/schemas",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Shared schema contracts package for demo services"
+}

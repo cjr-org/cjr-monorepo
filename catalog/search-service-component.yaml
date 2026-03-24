@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: search-service
+  description: Search and indexing service for catalog discovery flows.
+  tags:
+    - search
+    - index
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:developer-platform
+  system: developer-catalog

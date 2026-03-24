@@ -1,0 +1,11 @@
+name: search-service
+type: service
+owner: developer-platform
+lifecycle: experimental
+dependsOn:
+  - shared-config
+  - schemas
+tags:
+  - demo
+  - search
+  - index

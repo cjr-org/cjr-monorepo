@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: data-contracts
+  description: Demo team owning shared schemas and service contracts.
+spec:
+  type: team

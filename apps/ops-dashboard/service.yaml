@@ -1,0 +1,11 @@
+name: ops-dashboard
+type: website
+owner: platform-operations
+lifecycle: experimental
+dependsOn:
+  - catalog-api
+  - search-service
+tags:
+  - demo
+  - operations
+  - dashboard

@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ops-dashboard
+  description: Operational dashboard for internal support and platform teams.
+  tags:
+    - operations
+    - dashboard
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:platform-operations
+  system: developer-catalog
+  dependsOn:
+    - Component:default/catalog-api
+    - Component:default/search-service
